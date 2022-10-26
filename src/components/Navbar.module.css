@@ -1,0 +1,42 @@
+.navbar{
+    background: #58249c;
+    padding: 20px;
+    color: #fff;
+    margin: auto
+
+}
+.navigation {
+    width: 70%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navigation a:first-child{
+ margin-right: auto;
+}
+
+.navigation input {
+    width: 20%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:last-child {
+    color: #fff;
+    margin-left: 40px;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.navbar a:last-child:hover{
+    background: #fff;
+    color:#333
+}
